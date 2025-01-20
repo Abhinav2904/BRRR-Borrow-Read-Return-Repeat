@@ -124,6 +124,11 @@ Place the project folder in the htdocs directory.
 
 Import the library_system.sql file into your MySQL database.
 
+
+Login for admin panel: 
+email: admin@admin.com
+pass: admin123
+
 Update db.php in the includes/ folder with your database credentials.
 
 Access the application at http://localhost/[project-folder].
