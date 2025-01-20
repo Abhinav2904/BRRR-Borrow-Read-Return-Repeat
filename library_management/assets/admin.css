@@ -1,0 +1,242 @@
+/* Sidebar Styles */
+.sidebar {
+    height: 100vh;
+    background-color: #343a40;
+    padding-top: 20px;
+    position: fixed;
+}
+
+.sidebar h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+/* Main Tab Styles */
+.nav-item {
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #ccc;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #495057;
+    color: #fff;
+}
+
+/* Submenu Styles */
+.submenu {
+    display: none;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.submenu .nav-item {
+    margin-bottom: 5px;
+}
+
+.submenu .nav-link {
+    background-color: #495057;
+}
+
+/* Show submenu when active */
+.submenu.show {
+    display: block;
+}
+
+.submenu.show+.nav-link .toggle-icon {
+    transform: rotate(45deg);
+}
+
+/* Toggle Icon */
+.toggle-icon {
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Content Styles */
+.content {
+    padding: 20px;
+    margin-left: 275px;
+}
+
+/* Form Styles for Add Genre Page */
+.form-group {
+    margin-bottom: 20px;
+}
+
+#genre {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Alert Styles for Success and Error Messages */
+.alert {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+/* Center Text Style for Links */
+.center-text {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.center-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.center-text a:hover {
+    text-decoration: underline;
+}
+
+/* List Table Styling */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table td {
+    background-color: #f8f9fa;
+}
+
+.table .btn {
+    margin-right: 5px;
+}
+
+.table .btn-sm {
+    font-size: 0.9em;
+}
+
+/* Styling for Action buttons */
+.table .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.table .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.table .btn:hover {
+    opacity: 0.8;
+}
+
+/* Adjusting table appearance */
+.table td,
+.table th {
+    border: none;
+}
+
+.table .btn-sm {
+    width: 100px;
+}
+
+/* New styles for fixed column widths and description expansion */
+
+/* Ensure details column has a fixed width */
+.table .details-column {
+    width: 250px;
+    /* Fixed width for details column */
+    text-align: left;
+    /* Align text to the left for readability */
+}
+
+/* Description column should have limited width and hide overflow */
+.table .description-column {
+    width: 400px;
+    /* Fixed width for description column */
+    max-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Styling for the book image */
+.table .book-image {
+    width: 60px;
+    height: auto;
+}
+
+/* Read More link styles */
+.table .read-more {
+    color: blue;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+/* Full description hidden by default */
+.table .full-description {
+    display: none;
+}
+
+
+.stamp-image {
+    width: 100px;
+    height: auto;
+}
