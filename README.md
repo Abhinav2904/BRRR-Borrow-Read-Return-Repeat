@@ -122,8 +122,9 @@ Install XAMPP and start Apache and MySQL.
 
 Place the project folder in the htdocs directory.
 
-Import the library.sql file into your MySQL database.
+Import the library_system.sql file into your MySQL database.
 
 Update db.php in the includes/ folder with your database credentials.
 
 Access the application at http://localhost/[project-folder].
+
